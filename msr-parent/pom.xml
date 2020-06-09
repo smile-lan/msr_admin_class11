@@ -37,7 +37,7 @@
         <json.version>20170516</json.version>
     </properties>
 
-<!--    加载子模块-->
+    <!--    加载子模块-->
     <modules>
         <module>../msr-common</module>
         <module>../msr-edu</module>
