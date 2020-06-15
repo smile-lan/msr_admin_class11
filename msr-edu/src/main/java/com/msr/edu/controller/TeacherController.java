@@ -2,21 +2,14 @@ package com.msr.edu.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.msr.common.vo.R;
 import com.msr.edu.entity.Teacher;
 import com.msr.edu.query.TeacherQuery;
 import com.msr.edu.service.TeacherService;
-import com.sun.xml.internal.ws.runtime.config.TubelineFeatureReader;
-import common.constants.ResultCodeEnum;
-import common.exception.MSRException;
-import common.vo.R;
-import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import net.sf.jsqlparser.statement.select.Limit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.websocket.server.PathParam;
 import java.util.List;
 
 /**
